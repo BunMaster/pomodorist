@@ -1,7 +1,7 @@
 header {
    color:darkred;
     text-align: center;
-    font-size: 30px
+    font-size: 30px;
     
 }
 
@@ -16,10 +16,8 @@ header {
 }
 
 main {
-  
   text-align: center;
- 
-}
+ }
 
 
 
@@ -28,6 +26,9 @@ main {
     font-size: 40px;
     background-color:blueviolet;
     font-family:monospace;
+    margin: 2px;
+    font-weight: bold;
+    
    
 }
 
@@ -104,13 +105,60 @@ font-style: italic;
 
 
 #music{
-    position:inherit;
-    margin: 150px;
+    position: inherit;
+    margin: 20px;
+
+    
     
 }   
 
 .boxtext{
     color: white;
-    font-size: 20px
+    font-size: 20px;
         
+}
+
+.startovi{
+    font-size: 20px;
+    color: blueviolet;
+    margin: 5px;
+    font-weight: bold;
+}
+
+
+
+.stops{
+    font-size: 20px;
+    color: blueviolet;
+    margin: 5px;
+    font-weight: bold;
+}
+
+
+
+#reset{
+    font-size: 20px;
+    color: blueviolet;
+    margin: 5px;
+    font-weight: bold;
+    
+    
+}
+
+
+
+#spacing{
+    margin: 80px
+    
+    
+}
+
+
+#bbc{
+    background: rgba(255,0,0,0.7); 
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    margin: 20px;
+    
 }
