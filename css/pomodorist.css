@@ -1,0 +1,116 @@
+header {
+   color:darkred;
+    text-align: center;
+    font-size: 30px
+    
+}
+
+   body {
+   background-image: url("https://images5.alphacoders.com/368/368817.jpg");
+  margin: 0;
+  padding: 0;
+  position: relative;
+  margin: 0;
+  padding-bottom: 1rem;
+  min-height: 80%;
+}
+
+main {
+  
+  text-align: center;
+ 
+}
+
+
+
+  
+#countdown{
+    font-size: 40px;
+    background-color:blueviolet;
+    font-family:monospace;
+   
+}
+
+
+#countdowntwo{
+    font-size: 40px;
+    background-color:blueviolet;
+    font-family:monospace 
+}
+
+
+#countdownthree{
+    font-size: 40px;
+    background-color:blueviolet;
+    font-family:monospace 
+}
+
+
+#dugme {
+    color: blueviolet;
+    background: yellow;
+    border-style:dotted;
+    font-size: 30px;
+    margin: 10px;
+    
+}
+
+#prvideo {
+    margin: 20px;
+    background-color: rebeccapurple;
+    padding: 15px 32px;
+    display: inline-block;
+font-size: 10px;
+    border-radius: 8px;
+    
+}
+
+
+#drugideo {
+    margin: 20px;
+    background-color: rebeccapurple;
+    padding: 15px 32px;
+    display: inline-block;
+font-size: 10px;
+    border-radius: 8px;
+    
+}
+
+
+#trecideo {
+    margin: 20px;
+    background-color: rebeccapurple;
+    padding: 15px 32px;
+    display: inline-block;
+font-size: 10px;
+    border-radius: 8px;
+    
+}
+
+   
+footer{
+    color: red;
+    text-align: center;
+position:fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 2rem;
+  background-color: mintcream;
+    font-size: 20px;
+border-top: 5px solid red;
+font-style: italic;
+}
+
+
+#music{
+    position:inherit;
+    margin: 150px;
+    
+}   
+
+.boxtext{
+    color: white;
+    font-size: 20px
+        
+}
