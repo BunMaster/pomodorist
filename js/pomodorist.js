@@ -1,22 +1,14 @@
 var minutes = minutes = 24;
 var seconds = seconds = 59;
     
-    
-
-
-
     function countdown(element) {
     var reset = document.getElementById('reset');
-reset.onclick = function() {
-   
     
-    
-    minutes = 24;
-    seconds = 59;
-    clearInterval(interval);
-   }
-        
-        
+        reset.onclick = function() {
+            minutes = 24;
+            seconds = 59;
+            clearInterval(interval);
+        }
         
         interval = setInterval(function() {
             var el = document.getElementById(element);
@@ -27,8 +19,7 @@ reset.onclick = function() {
                     return;
                 } else {
                     minutes--;
-                    seconds = 60;
-                    
+                    seconds = 60;   
                 }
             }
             if(minutes > 0) {
@@ -40,12 +31,12 @@ reset.onclick = function() {
            document.getElementById("countdown").innerHTML = minute_text + ' ' + seconds + ' ' + second_text + ' remaining';
             seconds--;
         }, 1000);
-        document.getElementById("drugideo").style.visibility="hidden";
-        document.getElementById("trecideo").style.visibility="hidden";
-        
-   getElementbyId("startovi").disabled= true;
-        
-    }
+
+document.getElementById("drugideo").style.visibility="hidden";
+document.getElementById("trecideo").style.visibility="hidden";
+getElementById("startovi").disabled= true;
+         }
+
 
 
 
@@ -53,15 +44,7 @@ var intervol;
     var minutez = 9;
     var secondz = 59;
 
-
-
-
-
-
-
 function countdowntwo(element) {
-    
-
     
         intervol = setInterval(function() {
             var el = document.getElementById(element);
@@ -84,11 +67,9 @@ function countdowntwo(element) {
             secondz--;
         }, 1000);
     
-   document.getElementById("prvideo").style.visibility="hidden";
-        document.getElementById("trecideo").style.visibility="hidden"; 
+document.getElementById("prvideo").style.visibility="hidden";
+document.getElementById("trecideo").style.visibility="hidden"; 
     }
-
-
 
 
 var intervul;
@@ -119,7 +100,6 @@ function countdownthree(element) {
             secondx--;
         }, 1000);
     
-    document.getElementById("prvideo").style.visibility="hidden";
-        document.getElementById("drugideo").style.visibility="hidden"; 
-    
+document.getElementById("prvideo").style.visibility="hidden";
+document.getElementById("drugideo").style.visibility="hidden"; 
     }
